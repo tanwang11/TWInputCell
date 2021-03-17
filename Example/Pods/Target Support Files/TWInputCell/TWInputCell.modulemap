@@ -1,0 +1,6 @@
+framework module TWInputCell {
+  umbrella header "TWInputCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

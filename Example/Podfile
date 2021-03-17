@@ -1,9 +1,19 @@
 use_frameworks!
 
+
+source 'https://github.com/tanwang11/TWSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
 platform :ios, '9.0'
 
 target 'TWInputCell_Example' do
   pod 'TWInputCell', :path => '../'
+  
+  pod 'Masonry'
+  pod 'TWUI'
+  pod 'TWFoundation'
+  
 
   target 'TWInputCell_Tests' do
     inherit! :search_paths

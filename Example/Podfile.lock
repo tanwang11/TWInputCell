@@ -1,0 +1,135 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+  - TWFoundation (0.0.3):
+    - TWFoundation/NSArray (= 0.0.3)
+    - TWFoundation/NSData (= 0.0.3)
+    - TWFoundation/NSDate (= 0.0.3)
+    - TWFoundation/NSDecimalNumber (= 0.0.3)
+    - TWFoundation/NSDictionary (= 0.0.3)
+    - TWFoundation/NSFileManager (= 0.0.3)
+    - TWFoundation/NSObject (= 0.0.3)
+    - TWFoundation/NSString (= 0.0.3)
+    - TWFoundation/Prefix (= 0.0.3)
+    - TWFoundation/TWAssistant (= 0.0.3)
+  - TWFoundation/NSArray (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/NSData (0.0.3)
+  - TWFoundation/NSDate (0.0.3):
+    - TWFoundation/NSString
+  - TWFoundation/NSDecimalNumber (0.0.3):
+    - TWFoundation/NSObject
+  - TWFoundation/NSDictionary (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/NSFileManager (0.0.3)
+  - TWFoundation/NSObject (0.0.3)
+  - TWFoundation/NSString (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/Prefix (0.0.3)
+  - TWFoundation/TWAssistant (0.0.3):
+    - TWFoundation/Prefix
+  - TWInputCell (0.0.1)
+  - TWUI (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+    - TWUI/IToast (= 0.0.2)
+    - TWUI/ProgressView (= 0.0.2)
+    - TWUI/Response (= 0.0.2)
+    - TWUI/UIAlertController (= 0.0.2)
+    - TWUI/UIButton (= 0.0.2)
+    - TWUI/UIDevice (= 0.0.2)
+    - TWUI/UIImage (= 0.0.2)
+    - TWUI/UILabel (= 0.0.2)
+    - TWUI/UINavigationController (= 0.0.2)
+    - TWUI/UIScrollView (= 0.0.2)
+    - TWUI/UITableView (= 0.0.2)
+    - TWUI/UITextField (= 0.0.2)
+    - TWUI/UITextView (= 0.0.2)
+    - TWUI/UIView (= 0.0.2)
+    - TWUI/UIViewController (= 0.0.2)
+  - TWUI/IToast (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+  - TWUI/ProgressView (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+  - TWUI/Response (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+  - TWUI/UIAlertController (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+  - TWUI/UIButton (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+    - TWUI/UIView
+  - TWUI/UIDevice (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+  - TWUI/UIImage (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+    - TWUI/UIView
+  - TWUI/UILabel (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+    - TWUI/UIView
+  - TWUI/UINavigationController (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+  - TWUI/UIScrollView (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+  - TWUI/UITableView (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+  - TWUI/UITextField (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+  - TWUI/UITextView (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+  - TWUI/UIView (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+  - TWUI/UIViewController (0.0.2):
+    - Masonry (= 1.1.0)
+    - TWFoundation
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Masonry
+  - TWFoundation
+  - TWInputCell (from `../`)
+  - TWUI
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+  https://github.com/tanwang11/TWSpecs.git:
+    - TWFoundation
+    - TWUI
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TWInputCell:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TWFoundation: 5293f8fb88c98bd82c27df97ce9a74c373071e9a
+  TWInputCell: 12f811644d0939d47f1dbd708131c22f239442fe
+  TWUI: e48f01efb39e7f647c53f5f0ad69bb1144406e93
+
+PODFILE CHECKSUM: 1b21ad61dfbe2771aa0baabfdcf9a4cf792324f6
+
+COCOAPODS: 1.10.1
